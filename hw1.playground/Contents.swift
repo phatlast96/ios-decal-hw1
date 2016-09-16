@@ -22,7 +22,7 @@ class Words {
 //: ### variables the same type? If not, why?
 
 
-//: The values passed into the initializer and those set to the instance variables are not the same type because the instance variables are mplicitly unwrapped optionals and the ones passed into the initializer are optionals. The instance variables will unwrap the optionals passed into the initializer because it safely assumed those values will have values all the time.
+//: The values passed into the initializer and those set to the instance variables are not the same type because the instance variables are implicitly unwrapped optionals and the ones passed into the initializer are optionals. The instance variables will unwrap the optionals passed into the initializer only when it needs to be type checked locally.
 
 
 //: ## Q2: Variable Types and Function Types
